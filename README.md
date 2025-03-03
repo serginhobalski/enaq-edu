@@ -1,4 +1,4 @@
-<p align="center"><a href="https://enaq.seecpa.app" target="_blank"><img src="https://github.com/serginhobalski/enaq-edu/public/enaq.png" width="400" alt="Plataforma ENAQ"></a></p>
+<p align="center"><a href="https://enaq.seecpa.app" target="_blank"><img src="https://github.com/serginhobalski/enaq-edu/blob/main/public/enaq.png" width="400" alt="Plataforma ENAQ"></a></p>
 
 
 </p>
