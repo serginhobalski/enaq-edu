@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^itq\.seecpa\.app$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.itq\.seecpa\.app$
+RewriteRule ^/?$ "https\:\/\/itq\.seecpa\.app\/public\/login" [R=301,L]
+

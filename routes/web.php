@@ -25,7 +25,7 @@ Auth::routes();
 
 // ITQ routes (only ITQ students) || Rotas acessadas pelos alunos do itq
 Route::group(['prefix' => '/'], function () {
-    Route::get('/', [ItqController::class, 'index']);
+    Route::get('/', [ItqController::class, 'index'])->name('home');
     Route::get('/home', [ItqController::class, 'index']);
     Route::get('/meus_avisos', [ItqController::class, 'meus_avisos']);
     Route::get('/perfil', [ItqController::class, 'perfil']);

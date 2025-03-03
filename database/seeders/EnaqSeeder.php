@@ -107,7 +107,7 @@ class EnaqSeeder extends Seeder
             [
                 'name' => 'Beneilson Mendes Do Nascimento ',
                 'username' => 'beneilsondn',
-                'email' => 'provisorio@gmail.com',
+                'email' => 'prbeneilsonnascimento.bvc @gmail.com',
                 'password' => 'Enaq2545',
                 'group' => 'aluno',
             ],
@@ -681,6 +681,116 @@ class EnaqSeeder extends Seeder
                 'group' => 'aluno',
             ],
 
+
+
+
+            [
+                'name' => 'Rosangela Maria Paiva Figueira',
+                'username' => 'rosangelapf',
+                'email' => 'rosangelafigueira477@gmail.com',
+                'password' => 'Enaq2544',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Valdilene da Silva Pantoja Pantoja',
+                'username' => 'valdilenepp',
+                'email' => 'valdilenedasilvapantojapantoja@gmail.com',
+                'password' => 'Enaq2545',
+                'group' => 'aluno',
+            ],
+
+            [
+                'name' => 'Naurenir Cruz Almeida ',
+                'username' => 'naurenirca',
+                'email' => 'naurenir.cruz@gmail.com',
+                'password' => 'Enaq2547',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Alessandra Sueli Rodrigues da Silva Barradas ',
+                'username' => 'alessandrasb',
+                'email' => 'alessandra_barradas22@htmail.com',
+                'password' => 'Enaq2548',
+                'group' => 'aluno',
+            ],
+
+            [
+                'name' => 'Vânia Maria da Silva Aquino',
+                'username' => 'vaniasa',
+                'email' => 'vaniaaquino763@gmail.com',
+                'password' => 'Enaq2550',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Giomaque Ferreira da Fonseca',
+                'username' => 'giomaquedf',
+                'email' => 'giomaqueferreiradafonseca@hotmail.com',
+                'password' => 'Enaq2551',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Deivisson Gomes de Alfaia',
+                'username' => 'deivissonda',
+                'email' => 'deivissonalfaia659@gmail.com',
+                'password' => 'Enaq2552',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Jacicleia Rodrigues de Alfaia',
+                'username' => 'jucicleiada',
+                'email' => 'alfaiapaty@gmail.com',
+                'password' => 'Enaq2553',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Nayara kariny campos de Sá',
+                'username' => 'nayarads',
+                'email' => 'nayaracampos1010@gmail.com',
+                'password' => 'Enaq2554',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Iranor de Freitas da Silva',
+                'username' => 'iranords',
+                'email' => 'pastoriranorsilva@gmail.com',
+                'password' => 'Enaq2555',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Weliton de Jesus Borges',
+                'username' => 'welitonjb',
+                'email' => 'welitondejesusjesus@gmail.com',
+                'password' => 'Enaq2556',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Carlos Augusto da Silva Cruz',
+                'username' => 'carlossc',
+                'email' => 'djpopshow@hotmail.com',
+                'password' => 'Enaq2557',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Manoel Alves Machado Junior',
+                'username' => 'manoelmj',
+                'email' => 'manoelbaratinha55@gmail.com',
+                'password' => 'Enaq2558',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Ana Paula Galvan Orsato Sousa',
+                'username' => 'anapgos',
+                'email' => 'ana171090@gmail.com',
+                'password' => 'Enaq2559',
+                'group' => 'aluno',
+            ],
+            [
+                'name' => 'Maria Rosa Queiroz Vieira',
+                'username' => 'mariarqv',
+                'email' => 'mrqueirozvieira@gmail.com',
+                'password' => 'Enaq2560',
+                'group' => 'aluno',
+            ],
         ];
 
         foreach ($usuarios as $user) {

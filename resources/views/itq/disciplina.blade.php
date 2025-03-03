@@ -56,7 +56,11 @@
                                 >
                               </li>
                                 @endif
-                              <li><a data-toggle="tab" href="#menu2">Atividades Avaliativas</a></li>
+                                @if (count($atividades) == 0)
+
+                                @else
+                                <li><a data-toggle="tab" href="#menu2">Provas, Exercícios e Simulados</a></li>
+                                @endif
                             </ul>
 
                             <div class="tab-content">
@@ -110,6 +114,9 @@
                                     @endforeach
                                 @endif
                               </div>
+                                @if (count($atividades) == 0)
+                                    <br>
+                                @else
                               <div id="menu2" class="tab-pane fade">
                                 <h3>Atividades</h3>
 
@@ -136,6 +143,7 @@
                                 @endforeach
 
                               </div>
+                              @endif
                             </div>
                           </div>
                           <!-- end shop-extra -->

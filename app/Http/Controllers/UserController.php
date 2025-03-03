@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\DataTables\UsersDataTable;
 use App\Exports\UsersExport;
+use App\Models\AlunoCurso;
+use App\Models\Curso;
 use App\Models\User;
 use App\Models\UsuarioGrupo;
 use Illuminate\Http\Request;
@@ -57,9 +59,11 @@ class UserController extends Controller
 
     public function create()
     {
+        $cursos = Curso::all();
         $data = [
             'titulo' => 'Criar Usuário',
             'subtitulo' => 'Criando novo usuário ',
+            'cursos' => $cursos,
         ];
         return view('usuarios.create', $data);
     }
@@ -72,6 +76,7 @@ class UserController extends Controller
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'group' => ['required', 'max:100'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'curso_id' => ['required', 'string'],
         ]);
 
         $user = new User();
@@ -107,6 +112,12 @@ class UserController extends Controller
         }
 
         $grupoUsuario->save();
+
+        $curso = new AlunoCurso();
+        $curso->aluno_id = $user->id;
+        $$curso->curso_id = $request->input('curso_id');
+
+        $curso->save();
 
         return redirect()->route('usuarios.index')->with('success', 'Usuário criado com sucesso.');
     }

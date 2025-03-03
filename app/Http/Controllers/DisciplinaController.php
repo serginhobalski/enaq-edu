@@ -70,7 +70,6 @@ class DisciplinaController extends Controller
             'ch' => ['nullable', 'numeric'],
             'link' => ['nullable', 'string'],
             'codigo' => ['nullable', 'string'],
-            'modulo' => ['nullable', 'string'],
             'imagem' => ['nullable', 'file'],
         ]);
 
@@ -82,7 +81,6 @@ class DisciplinaController extends Controller
         $disciplina->ch = $request->input('ch');
         $disciplina->link = $request->input('link');
         $disciplina->codigo = $request->input('codigo');
-        $disciplina->modulo = $request->input('modulo');
 
         if ($request->hasFile('imagem') && $request->file('imagem')->isValid()) {
             $image = $request->file('imagem');
@@ -269,7 +267,6 @@ class DisciplinaController extends Controller
             'ch' => ['nullable', 'numeric'],
             'link' => ['nullable', 'string'],
             'codigo' => ['nullable', 'string'],
-            'modulo' => ['nullable', 'string'],
             'imagem' => ['nullable', 'file'],
         ]);
 
@@ -281,7 +278,6 @@ class DisciplinaController extends Controller
         $disciplina->ch = $request->input('ch');
         $disciplina->link = $request->input('link');
         $disciplina->codigo = $request->input('codigo');
-        $disciplina->modulo = $request->input('modulo');
 
         if ($request->hasFile('imagem') && $request->file('imagem')->isValid()) {
             $image = $request->file('imagem');

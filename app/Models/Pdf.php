@@ -17,5 +17,6 @@ class Pdf extends Model
         'ch',
         'link',
         'codigo',
+        'created_at',
     ];
 }

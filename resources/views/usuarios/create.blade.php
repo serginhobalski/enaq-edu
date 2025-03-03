@@ -88,6 +88,19 @@
                             </div>
                         </div>
 
+                        <div class="row mb-3">
+                            <label for="curso_id" class="col-md-4 col-form-label text-md-end">{{ __('Curso') }}</label>
+
+                            <div class="col-md-6">
+                                <select name="curso_id" id="curso_id" class="form-control">
+                                    {{-- @foreach ($cursos as $curso)
+                                    <option value="{{$curso->id}}">{{$curso->nome}}</option>
+                                    @endforeach --}}
+                                    <option value="2">Curso de Postulantes 2025</option>
+                                </select>
+                            </div>
+                        </div>
+
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-dark">

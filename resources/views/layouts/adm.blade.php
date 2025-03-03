@@ -238,7 +238,7 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-primary" href="{{url('home')}}">
-                                        <i class="fa-solid fa-tv"></i> Painel ITQ
+                                        <i class="fa-solid fa-tv"></i> Painel do Aluno
                                     </a>
                                 </li>
                                 <hr>
@@ -356,7 +356,7 @@
                     <li><!-- ITQ -->
                         <a href="{{url('itq/painel')}}" class="ttr-material-button">
                             <span class="ttr-icon"><i class="fa-solid fa-chalkboard-user"></i></span>
-                            <span class="ttr-label">Painel ITQ</span>
+                            <span class="ttr-label">Painel do Aluno</span>
                         </a>
                     </li>
                     <li> <!-- Mensagens -->
